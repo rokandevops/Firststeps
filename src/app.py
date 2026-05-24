@@ -14,7 +14,7 @@ app = FastAPI()
 # Health Route
 @app.get("/health")
 def health_check():
-    return {"status": "healthy"}
+    return {"status": "we have done it"}
 
 
 # Process Route
