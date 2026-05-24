@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv(".env")
+print(os.getenv('ENV'))
 
 load_dotenv(f".env.{os.getenv('ENV')}", override=True)
 
